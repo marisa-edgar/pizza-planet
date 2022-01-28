@@ -38,3 +38,18 @@ MIT
 
 License under [MIT License]_(LICENSE)_
 Copyright (c) _date_ _author name(s)_
+
+
+
+
+Describe: Pizza()
+
+Test: "It should return a Pizza object with properties for toppings and size"
+Code: const myPizza = new Pizza();
+Expected Output: Pizza {Pizza [top1: undefined, top2: undefined, top3: undefined, top4: undefined, top5: undefined,size: undefined, price: 8]}
+
+Describe: sizeCost()
+
+Test: "It should return price when size is selected"
+Code: const myPizza = new Pizza("large");
+Expected Output: Pizza { size: [11];
