@@ -66,3 +66,12 @@ Describe: sizeCost()
 Test: "It should return price when size is selected"
 Code: const myPizza = new Pizza("medium");
 Expected Output: myPizza.sizeCost{Pizza[size:"medium", top:undefined, price:"8";]}
+
+
+Describe: sizeCost()
+
+Test: "It should return price when size and an array of toppings are added"
+Code: const myPizza = new Pizza("medium"["spinach", "feta"]);
+Expected Output: myPizza.sizeCost{Pizza[size:"medium", top:["spinach", "feta"], price:"8";]}
+
+
