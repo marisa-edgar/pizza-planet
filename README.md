@@ -52,10 +52,10 @@ Describe: sizeCost()
 
 Test: "It should return price when size is selected"
 Code: const myPizza = new Pizza("XL");
-Expected Output: myPizza{Pizza[sizeL:"XL", top1: undefined, top2: undefined, top3: undefined, top4: undefined, top5: undefined, price:"13";]}
+Expected Output: myPizza.sizeCost{Pizza[sizeL:"XL", top1: undefined, top2: undefined, top3: undefined, top4: undefined, top5: undefined, price:"13";]}
 
 Describe: sizeCost()
 
 Test: "It should return price when size is selected"
 Code: const myPizza = new Pizza("large");
-Expected Output: myPizza{Pizza[sizeL:large, top1: undefined, top2: undefined, top3: undefined, top4: undefined, top5: undefined, price:11;]}
+Expected Output: myPizza.sizeCost{Pizza[sizeL:large, top1: undefined, top2: undefined, top3: undefined, top4: undefined, top5: undefined, price:11;]}
