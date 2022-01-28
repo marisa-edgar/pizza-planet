@@ -11,25 +11,29 @@
   <div class="jumbotron">
     <h1>Pizza Planet</h1>
     <h3></h3>
+    <img src="img/truck.jpeg" alt="Pizza planet truck" class="truck">
   </div>
   <div class= "container">
     <form class="pizza">
-      <div class="form-group">
+      <div class="sub-header">
         <h2>Build your own Out of This World Pizza</h2>
+        <img src="img/pizza.jpeg" alt="Pizza planet pizzas" class="pizza2">
+      </div>
+      <div class="form-group">
         <h4>choose your size</h4>
-        <label><input type="radio" name="size" value="medium" checked >Medium</label>
-        <label><input type="radio" name="size" value="large">Large</label>
-        <label><input type="radio" name="size" value="xl">XL</label> 
+        <label><input type="radio" name="size" value="medium" checked >Medium</label><br>
+        <label><input type="radio" name="size" value="large">Large</label><br>
+        <label><input type="radio" name="size" value="xl">XL</label> <br>
       </div>
       <div class="form-group">
         <h4>Choose your toppings</h4>
-        <label><input type="checkbox" name="topping" value="Onion" >Onion</label>
-        <label><input type="checkbox" name="topping" value="Mushroom">Mushroom</label>
-        <label><input type="checkbox" name="topping" value="Black Olive">Black Olive</label> 
-        <label><input type="checkbox" name="topping" value="spinach">Spinach</label>
-        <label><input type="checkbox" name="topping" value="Feta">Feta</label>
+        <label><input type="checkbox" name="topping" value="Onion" >Onion</label><br>
+        <label><input type="checkbox" name="topping" value="Mushroom">Mushroom</label><br>
+        <label><input type="checkbox" name="topping" value="Black Olive">Black Olive</label><br>
+        <label><input type="checkbox" name="topping" value="spinach">Spinach</label><br>
+        <label><input type="checkbox" name="topping" value="Feta">Feta</label><br>
+        <button type="submit" class="btn btn-dark">Submit</button>
       </div>
-      <button type="submit" class="btn btn-dark">Submit</button>
     </form>
     <div id="pizza1">
       <p>Pizza Size: <span class="pizza-size"></span></p>

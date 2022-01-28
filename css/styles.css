@@ -1,3 +1,65 @@
 #pizza1 {
   display:none
-};
+}
+body {
+  background-image: url("../img/background-gif.jpeg");
+  background-size: cover;
+  color: white;
+  font-size: 25pt;
+}
+.truck {
+  float: right;
+  padding: 2px;
+  width: 150px;
+  border: solid;
+  position: relative;
+  top: -100px;
+}
+.pizza2 {
+  float: right;
+  padding: 2px;
+  width: 150px;
+  border: solid;
+  position: relative;
+  top: -60px;
+}
+.jumbotron {
+  background-color: black;
+}
+.form-group {
+  width: 30%;
+  /* height: 190px; */
+  /* float: left; */
+  margin: 18px;
+  text-align: justify;
+  border: 2px solid;
+  /* height: 500px; */
+  padding: 30px;
+  text-align: left;
+  font-size: 12pt;
+  background-color: rgba(0, 0, 0, 0.355);
+  color: #fff;
+}
+.sub-header {
+  width: 100%;
+  height: 150px;
+  float: center;
+  margin: 18px;
+  text-align: justify;
+  border: 2px solid;
+  padding: 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.355);
+  color: #fff;
+}
+#pizza1 {
+  width: 100%;
+  float: center;
+  margin: 18px;
+  text-align: justify;
+  border: 2px solid;
+  padding: 30px;
+  text-align: left;
+  font-size: 30pt;
+  background-color: rgba(0, 0, 0, 0.355);
+}
