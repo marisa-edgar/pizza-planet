@@ -48,30 +48,30 @@ Test: "It should return a Pizza object with properties for toppings and size"
 Code: const myPizza = new Pizza();
 Expected Output: Pizza {Pizza [top: undefined, size: undefined, price: 8]}
 
-Describe: sizeCost()
+Describe: pizzaCost()
 
 Test: "It should return price when size is selected"
 Code: const myPizza = new Pizza("XL");
-Expected Output: myPizza.sizeCost{Pizza[size:"XL", top:undefined, price:"13";]}
+Expected Output: myPizza.pizzaCost{Pizza[size:"XL", top:undefined, price:"13";]}
 
-Describe: sizeCost()
+Describe: pizzaCost()
 
 Test: "It should return price when size is selected"
 Code: const myPizza = new Pizza("large");
-Expected Output: myPizza.sizeCost{Pizza[size:"large", top:undefined, price:"11";]}
+Expected Output: myPizza.pizzaCost{Pizza[size:"large", top:undefined, price:"11";]}
 
 
-Describe: sizeCost()
+Describe: pizzaCost()
 
 Test: "It should return price when size is selected"
 Code: const myPizza = new Pizza("medium");
-Expected Output: myPizza.sizeCost{Pizza[size:"medium", top:undefined, price:"8";]}
+Expected Output: myPizza.pizzaCost{Pizza[size:"medium", top:undefined, price:"8";]}
 
 
-Describe: sizeCost()
+Describe: pizzaCost()
 
 Test: "It should return price when size and an array of toppings are added"
 Code: const myPizza = new Pizza("medium"["spinach", "feta"]);
-Expected Output: myPizza.sizeCost{Pizza[size:"medium", top:["spinach", "feta"], price:"8";]}
+Expected Output: myPizza.pizzaCost{Pizza[size:"medium", top:["spinach", "feta"], price:"10";]}
 
 
