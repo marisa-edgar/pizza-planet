@@ -1,13 +1,10 @@
-function Pizza(size,top1, top2, top3, top4, top5) {
+function Pizza(size,top) {
   this.size = size;
-  this.top1 = top1;
-  this.top2 = top2;
-  this.top3 = top3;
-  this.top4 = top4;
-  this.top5 = top5;
+  this.top = top;
   this.price = 8;
 }
 Pizza.prototype.sizeCost = function() {
+  let pizzaTop = this.top.length *1;
   if (this.size === "XL") {
     return this.price += 5;
   } else if (this.size === "large") {
