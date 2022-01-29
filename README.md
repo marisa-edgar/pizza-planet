@@ -1,43 +1,42 @@
-# _{Application Name}_
+# _Pizza Planet_
 
-#### By _**{List of contributors}**_
+#### By _**Marisa Edgar**_
 
-#### _{Brief description of application}_
+#### _a webpage to order pizza from pizza planet_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _JavaScript_
+* _JQuery_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_a Webpage that allows you to order pizza from pizza planet._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Create and/or navigate to the directory you would like to contain this project on your computer._
+* _Initialize a git repository by typing git init in the terminal._
+* _Type git clone https://github.com/marisa-edgar/pizza-planet to clone the repository to your local machine._
+* _Use shortcut code . to open VS code editor._
+* _Open the index.html in your browser._
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bug_
+
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Any questions or concerns please feel free to email at marisaedgar1212@gmail.com_
 
 MIT
 
 License under [MIT License]_(LICENSE)_
-Copyright (c) _date_ _author name(s)_
+Copyright (c) _2022_ _Marisa Edgar_
 
 
 

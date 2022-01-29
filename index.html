@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
     <title></title>
   </head>
-<body>
-  <div class="jumbotron">
-    <h1>Pizza Planet</h1>
-    <h3></h3>
-    <img src="img/truck.jpeg" alt="Pizza planet truck" class="truck">
-  </div>
-  <div class= "container">
-    <form class="pizza">
-      <div class="sub-header">
-        <h2>Build your own Out of This World Pizza</h2>
-        <img src="img/pizza.jpeg" alt="Pizza planet pizzas" class="pizza2">
-      </div>
-      <div class="form-group">
-        <h4>choose your size</h4>
-        <label><input type="radio" name="size" value="medium" checked >Medium</label><br>
-        <label><input type="radio" name="size" value="large">Large</label><br>
-        <label><input type="radio" name="size" value="xl">XL</label> <br>
-      </div>
-      <div class="form-group">
-        <h4>Choose your toppings</h4>
-        <label><input type="checkbox" name="topping" value="Onion" >Onion</label><br>
-        <label><input type="checkbox" name="topping" value="Mushroom">Mushroom</label><br>
-        <label><input type="checkbox" name="topping" value="Black Olive">Black Olive</label><br>
-        <label><input type="checkbox" name="topping" value="spinach">Spinach</label><br>
-        <label><input type="checkbox" name="topping" value="Feta">Feta</label><br>
-        <button type="submit" class="btn btn-dark">Submit</button>
-      </div>
-    </form>
-    <div id="pizza1">
-      <p>Pizza Size: <span class="pizza-size"></span></p>
-      <p>Toppings: <span class="topping"></span></p>
-      <p>Pizza Cost: <span class="cost"></span></p>
+  <body>
+    <div class="jumbotron">
+      <h1>PIZZA PLANET</h1>
+      <h3></h3>
+      <img src="img/truck.jpeg" alt="Pizza planet truck" class="truck">
     </div>
-  </div>
-</body>
+    <div class= "container">
+      <form class="pizza">
+        <div class="sub-header">
+          <h2>BUILD AN OUT OF THIS WORLD PIZZA</h2>
+          <img src="img/pizza.jpeg" alt="Pizza planet pizzas" class="pizza2">
+        </div>
+        <div class="form-group">
+          <h4>Choose Your Size</h4>
+          <label><input type="radio" name="size" value="medium" checked >Mars</label><br>
+          <label><input type="radio" name="size" value="large">Earth</label><br>
+          <label><input type="radio" name="size" value="xl">Jupiter</label> <br>
+        </div>
+        <div class="form-group">
+          <h4>Choose Your Toppings</h4>
+          <label><input type="checkbox" name="topping" value="Onion" >Onion</label><br>
+          <label><input type="checkbox" name="topping" value="Mushroom">Mushroom</label><br>
+          <label><input type="checkbox" name="topping" value="Black Olive">Black Olive</label><br>
+          <label><input type="checkbox" name="topping" value="spinach">Spinach</label><br>
+          <label><input type="checkbox" name="topping" value="Feta">Feta</label><br>
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
+      </form>
+      <div id="pizza1">
+        <p>Pizza Size: <span class="pizza-size"></span></p>
+        <p>Toppings: <span class="topping"></span></p>
+        <p>Pizza Cost: <span class="cost"></span></p>
+      </div>
+    </div>
+  </body>
 </html>

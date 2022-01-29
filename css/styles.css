@@ -2,10 +2,19 @@
   display:none
 }
 body {
-  background-image: url("../img/background-gif.jpeg");
+  background-image: url(https://houseofgeekery.files.wordpress.com/2015/02/pizza2.gif);
   background-size: cover;
   color: white;
   font-size: 25pt;
+}
+h1 {
+  font-family: 'Orbitron', sans-serif;
+}
+h2 {
+  font-family: 'Orbitron', sans-serif;
+}
+.form-group {
+  font-family: 'Montserrat', sans-serif;
 }
 .truck {
   float: right;
@@ -63,3 +72,5 @@ body {
   font-size: 30pt;
   background-color: rgba(0, 0, 0, 0.355);
 }
+
+
